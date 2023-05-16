@@ -34,6 +34,7 @@ vim /etc/ssh/sshd_config
 
 mkdir /var/run/sshd
 echo "service ssh start" >> /root/.bashrc
+echo "clear" >> /root/.bashrc
 
 #change root password
 passwd root
