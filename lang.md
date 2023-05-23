@@ -32,3 +32,10 @@ lua
 ```
 apt install lua
 ```
+
+```shell
+#protobuf
+apt install -y protobuf-compiler
+go get -u github.com/golang/protobuf/protoc-gen-go
+apt install golang-goprotobuf-dev
+```
