@@ -39,3 +39,9 @@ apt install -y protobuf-compiler
 go get -u github.com/golang/protobuf/protoc-gen-go
 apt install golang-goprotobuf-dev
 ```
+
+```shell
+#mysql
+vi /etc/mysql/mysql.conf.d/mysqld.cnf 
+#bind-address           = 127.0.0.1
+```
